@@ -1,0 +1,6 @@
+{
+  "name": "La Ricetta Autentica - Macerata",
+  "description": "PWA di turismo enogastronomico esperienziale a Macerata con tracciamento ingredienti, gamification, personalizzazione AI e Earned Media della Sfida dei Ristoratori.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

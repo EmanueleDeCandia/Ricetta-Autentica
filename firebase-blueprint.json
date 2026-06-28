@@ -1,0 +1,73 @@
+{
+  "collections": {
+    "users": {
+      "schema": {
+        "uid": "string",
+        "name": "string",
+        "avatar": "string",
+        "points": "number",
+        "stamps": "array",
+        "badge": "string",
+        "is_winner": "boolean",
+        "createdAt": "string"
+      }
+    },
+    "restaurants": {
+      "schema": {
+        "name": "string",
+        "address": "string",
+        "specialty": "string",
+        "price": "string",
+        "votes": "number",
+        "orders": "number",
+        "adoptedRecipes": "array"
+      }
+    },
+    "earned_media_posts": {
+      "schema": {
+        "userId": "string",
+        "userName": "string",
+        "userAvatar": "string",
+        "restaurantId": "string",
+        "restaurantName": "string",
+        "recipeId": "string",
+        "recipeName": "string",
+        "variantName": "string",
+        "imageUrl": "string",
+        "caption": "string",
+        "platform": "string",
+        "likes": "number",
+        "views": "number",
+        "timestamp": "string"
+      }
+    },
+    "challenge_submissions": {
+      "schema": {
+        "recipeId": "string",
+        "recipeName": "string",
+        "variantId": "string",
+        "variantName": "string",
+        "changes": "string",
+        "creatorId": "string",
+        "creatorName": "string",
+        "creatorAvatar": "string",
+        "votes": "number",
+        "featuredBy": "array",
+        "timestamp": "string"
+      }
+    },
+    "restaurant_feedbacks": {
+      "schema": {
+        "restaurantId": "string",
+        "restaurantName": "string",
+        "userId": "string",
+        "userName": "string",
+        "userAvatar": "string",
+        "rating": "number",
+        "comment": "string",
+        "isVerifiedGuest": "boolean",
+        "timestamp": "string"
+      }
+    }
+  }
+}
