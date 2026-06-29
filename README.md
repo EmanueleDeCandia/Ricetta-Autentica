@@ -25,8 +25,6 @@ Attraverso una mappa interattiva, l'acquisizione di timbri tramite codici QR e l
 
 ## 📸 Galleria dell'Applicazione
 
-*Per visualizzare le immagini in questa guida, salva i tuoi screenshot nella cartella `docs/images/` rinominandoli come indicato sotto.*
-
 ### 1. Onboarding e Selezione Avatar
 L'utente può accedere come ospite o autenticarsi in modo sicuro con il proprio account Google, scegliendo un nome e un avatar personalizzato.
 ![Onboarding](docs/images/onboarding.png)
